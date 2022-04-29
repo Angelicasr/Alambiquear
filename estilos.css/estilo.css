@@ -49,8 +49,8 @@ section {
 
 header{
     height: 130px;
-    box-shadow: 0 .5rem 1rem rgba(202, 191, 191, 0.1);
-    background-color: rgb(63, 59, 59);
+    box-shadow: 0 .5rem 1rem rgba(232, 223, 223, 0.1);
+    background-color:#2E2A2A;
     align-items: center;
     z-index: 1000;
     position: fixed;
@@ -66,7 +66,7 @@ header{
 .menu{
     grid-column: 10/13;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     font-weight: 600;
     padding-right: 0.625rem;
@@ -408,7 +408,7 @@ ul a:hover{
     color: rgb(185, 161, 161);
 }
 
-    .whats{
+.whats{
         height: 2.31rem;
         width: 2.31rem;
         background-color: rgb(17, 177, 17);
@@ -423,7 +423,7 @@ ul a:hover{
         box-shadow: 0.1875rem 0.1875rem 0.625rem rgb(47, 41, 41);
     }
 
-    audio{
+audio{
         position: fixed;
         bottom: 20px;
         right: 20px;
@@ -432,27 +432,113 @@ ul a:hover{
     
         }       
 
-        #hero1{
-            padding-left: 320px;
+#hero1{
+    padding-left: 320px;
+    }
+
+    .leter{
+    padding-right: 320px;
         }
 
-        .leter{
-            padding-right: 320px;
-        }
-
-
-        /*Modal de bodegon*/
+/*menu bodegon*/
+.container-caja{
+    display: contents;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 40px;
+    
+}
         
+.box, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9{
+    width: 218px;
+    height: 200px;
+    background: rgb(51, 48, 48);
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    flex-wrap: wrap;
+    transition: all 300ms ease;
+
+}
+.box:hover, .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover, .box9:hover{
+transform: scale(1.1);
+box-shadow: 0px opx 30px -16px rgba(235, 231, 231, 0.1);
+background:  rgb(55, 11, 11);
+z-index: 1;
+}
+
+.box:hover, .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover, .box9:hover, .icon{
+    color: #fff;
 
 
 
 
+}
+
+.h1-box{
+    margin-bottom: 50px;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: rgb(60, 20, 20);
+}
+
+.box, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .icon{
+    font-size: 60px;
+    color:  rgb(55, 11, 11);
+}
+
+.uno{
+    margin-top: 20px; 
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgb(100, 94, 94);
 
 
+}
+.box{
+    grid-column: 4;
+    grid-row: 3;
+}
+.box1{
+    grid-column: 4;
+    grid-row: 4;
+}
+.box2{
+    grid-column: 5;
+    grid-row: 3;
+}
+.box3{
+    grid-column: 5;
+    grid-row: 4;
 
-
-
-
+}
+.box4{
+    grid-column: 6;
+    grid-row: 3;
+}
+.box5{
+    grid-column: 6;
+    grid-row: 4;
+}
+.box6{
+    grid-column: 7;
+    grid-row: 3;
+}
+.box7{
+    grid-column: 7;
+    grid-row: 4;
+}
+.box8{
+    grid-column: 8;
+    grid-row: 3;
+}
+.box9{
+    grid-column: 8;
+    grid-row: 4;
+}
 
 
 
