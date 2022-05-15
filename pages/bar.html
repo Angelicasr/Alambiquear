@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/estilos.css/estilo.css">
     <link rel="icon" type="icon/ico" href="imagen/iconoalambique.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Jura&family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Poppins:ital,wght@0,300;0,400;0,500;1,500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3a643f876f.js" crossorigin="anonymous"></script>
         <title>BAR</title>
-    <style>
-        body{
-            background-image: linear-gradient(to top, #6d5911, #603c17, #48261a, #281616, #000000);
-        }
-    </style>
+
+        <style>
+            body{
+                background-color: rgb(12, 11, 11);
+            }
+        </style>
 
 </head>
 <body>
@@ -25,12 +27,93 @@
                 <input href="#" type="text" placeholder=" Buscar" required>
                 </div>
             <nav class="menu"> 
-                <a href="#Reserva">Quienes somos </a>
-                <a href="#NuestrasUbicaciones">Sucursales</a>
+                <a href="#somos-alambique1">Home </a>
+                <a href="#formulario-reserva">Reservas</a>
                 <a href="menu.html">Pedi aqui</a>
             </nav>
         </div>    
     </header>
+
+    <section id="somos-alambique1">
+        <div class="container-al1">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h1 class="color-p"><span class="color-acento1">ALAMBIQUE</span></h1> <br>
+                <p class="color-a"> TODO</p> <br>
+                <p class="color-a"> EMPIEZA</p> <br>
+                <hr style="width: 400px; margin-left: 550px;" > <br>
+                <p class="color-a"> CON UN COCTEL</p>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="neon">
+            <h2 class="primer1"> COCKTAILS CONNECT PEOPLE  </h2>
+    </div>
+    </section>
+
+
+    <section id="somos-alambique2">
+        <div class="container-al2">
+            <div class="img-container2"></div>
+            <div class="texto2">
+
+                <h2 class="color-p2">Somos <span class="color-acento">Alambique Bar</span></h2> <br>
+                <p class="color-p2">No Sabes De Que Manera Celebrar Tu Fecha Especial ?</p> <br>
+                <p class="color-p2"> Somos el bar que estabas esperando, somos #AlambiqueBar </p> <br>
+                <p class="color-p2"> RESERVA CON NOSOTROS Y DISFRUTA </p>
+                <a href="#formulario-reserva"><button  id="btn-abrir-popup2" class="btn-abrir-popup2">RESERVAR</button></a>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="formulario-reserva" id="formulario-reserva">
+
+    <div class="content6">
+
+        <h2 class="contacto1"><span>RESERVA</span></h2>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <form action="">
+                    <p class="form3">
+                        <label>Nombre</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p class="form3">
+                        <label>Email </label>
+                        <input type="email" name="email">
+                    </p>
+                    <p class="form3">
+                        <label>Numero de Telefono</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p class="form3">
+                        <label>numero de invitados</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                    <label>Mensaje</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button class="btn-abrir-popup2" id="btn-abrir-popup3">
+                        <a href="https://api.whatsapp.com/send/?phone=5491164383829&text=Hola+%23AlambiqueBar+%EF%BF%BD+para+hacer+una+reserva%3F&app_absent=0" style="text-decoration: none;"> Enviar </a> 
+                        </button>
+                    </p>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
 
     
         <section id="carrusel">
@@ -75,13 +158,9 @@
 
             </div>
 
-<!--========================================================== -->
-                    <!-- CONTENEDOR DEL FORMULARIO -->
-<!--========================================================== -->
 
 
-
-    <audio controls autoplay>
+    <audio controls >
         <source src="/music/Hector Couto - Coco Loco (Original Mix).mp3" type="audio/mp3">
     </audio>
 </section>
@@ -94,7 +173,7 @@
             </div>
             <div class="box__footer2">
                 <h2 class="contacto">Contactos o Reservas</h2>
-                <ul><a href="https://api.whatsapp.com/send/?phone=5491138021451&text=Hola%2C+para+hacer+un+pedido%3F&app_absent=0"> Whatsapp </a> </ul>
+                <ul><a href="https://api.whatsapp.com/send/?phone=5491164383829&text=Hola+%23AlambiqueBar+%EF%BF%BD+para+hacer+una+reserva%3F&app_absent=0"> Whatsapp </a> </ul>
                 <ul><a href="https://menu.fu.do/alambiquebodeg%C3%B3ndelicores">App de compras en linea</a></ul>
                     <ul class="color">Alambiquebar.arg@gmail.com </ul>
                     <ul class="color">Alambique.licoress@gmail.com </ul>
@@ -114,8 +193,9 @@
             </div>
     </footer>
 </div>
+
 </body>
 
 
-<a href="https://api.whatsapp.com/send/?phone=5491138021451&text=Hola%2C+para+hacer+un+pedido%3F&app_absent=0" class="whats"> <i class="fa-brands fa-whatsapp"></i></a>
+<a href="https://api.whatsapp.com/send/?phone=5491164383829&text=Hola+%23AlambiqueBar+%EF%BF%BD+para+hacer+una+reserva%3F&app_absent=0" class="whats"> <i class="fa-brands fa-whatsapp"></i></a>
 </html>

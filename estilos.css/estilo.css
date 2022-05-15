@@ -209,12 +209,54 @@ h1{
     font-size: 30px;
 }
 
+/*reserva*/
+#somos-alambique .container-al{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#somos-alambique {
+    background-color:  rgb(60, 20, 20);
+    opacity: .7;
+}
+
+.color-p {
+    color: #faf2f2;
+}
+.color-acento{
+    color: #686262;
+}
+.btn-abrir-popup{
+    grid-row-start: 2;
+    grid-column: 2/5;
+    margin-top: 200px;
+    padding-left: 30px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+#btn-abrir-popup {
+    
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid rgb(93, 90, 81);
+        box-shadow: 0.125rem 0.125rem 0.625rem rgb(220, 212, 185);
+        color: aliceblue;
+        background-color: rgb(164, 20, 20);
+
+}
+
+
 
 /*Tercer section*/
 
 #NuestrasUbicaciones{ 
     height:80vh;
-    background: linear-gradient(180deg, rgb(10, 9, 9) 50%, rgb(252, 248, 248) 50%);
+    background: linear-gradient(180deg, rgb(31, 30, 30) 50%,  rgb(31, 30, 30) 50%);
     }
     
     .Nuestras{
@@ -228,12 +270,16 @@ h1{
     }
     .carta{
     width: 30%;
-    background: rgb(183, 177, 177);
-    box-shadow: 0 0 10px rgb(226, 204, 204) ;
+    background: rgb(24, 23, 23);
+    box-shadow: 0 0 10px rgb(95, 90, 90) ;
     overflow: hidden;
     height: 180px;
     padding: 20px 10px;
     text-align: center;
+    }
+
+    .carta:hover{
+        background-color: #4c4747;
     }
     img{
         width: 100%;
@@ -723,6 +769,186 @@ margin: 5px 0px;
     margin-top: 150px;
     margin-left: 350px;
 }
+        /*bar primer section*/
+    
+        .color-a{
+            font-size: 60px;
+            color: #faf2f2;
+        }
+
+        #somos-alambique1{
+            opacity: .7;
+            height: 800px;
+
+        }
+
+        #somos-alambique1 .container-al1{
+            text-align: center;
+            padding: 200px 12px;
+        }
+    
+        
+        .color-acento1{
+            color: #6b5a08;
+            font-size: 70px;
+        }
+
+        #neon{
+            font-size: 30px;
+            background-image: url(/imagen/fondo.jpg);
+            background-size: cover;
+            height: 400px;
+            opacity: 1;
+            
+        
+        
+        }
+
+        .primer1{
+            margin-left: 250px;
+            color: #e3d2d2;
+            animation: blanco-neon 2s infinite alternate;
+            font-family: 'Jura', sans-serif;
+            white-space: nowrap;
+            padding-top: 152px;
+        }
+
+        @keyframes blanco-neon{
+            0%, 10%, 15%, 20%, 25%, 30%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%{
+                text-shadow: 9px 9px 18px rgb(108, 104, 104), 3px 3px 5px rgb(186, 181, 181), -3px -3px 5px rgb(186, 181, 181), -9px -9px 27px rgb(170, 157, 189);
+            }
+            10%, 30%, 60%{
+                text-shadow: none;
+            }
+            
+        }
+
+        /*reserva bar*/
+#somos-alambique2 .container-al2{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#somos-alambique2 {  
+    opacity: .7;
+}
+
+.color-p2 {
+    color: #faf2f2;
+}
+.color-acento{
+    color: #6b5a08;
+}
+.btn-abrir-popup2{
+    grid-row-start: 2;
+    grid-column: 2/5;
+    margin-top: 200px;
+    padding-left: 30px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+#btn-abrir-popup2 {
+    
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid rgb(93, 90, 81);
+        box-shadow: 0.125rem 0.125rem 0.625rem rgb(220, 212, 185);
+        color: aliceblue;
+        background-color: #6b5a08;
+
+}
+#btn-abrir-popup2:hover{
+    background-color: #94a134;
+}
+
+/* formulario de reserva */
+
+.formulario-reserva{
+    height: 800px;
+}
+
+.container6 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.form7 {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.contacto1 span {
+    color: #7d7d0a;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper {
+    padding: 1em;
+}
+
+
+.form3, .block{
+    color: #e3d2d2;
+}
+
+
+.contact-form form,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    color: #fff;
+    border-bottom: 1px solid #f6efef;
+}
+
+.contact-form form, .btn-abrir-popup2 {
+    background: #2a2424;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: rgb(192, 83, 83);
+}
+
+.contact-info> h4, .contact-info, .form7, .contact-info .form3{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+#btn-abrir-popup3{
+    margin-left: 580px;
+    margin-top: 200px;
+    padding-left: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#btn-abrir-popup3:hover{
+    background-color: #7d7d0a;
+}
+
+
+
+
 
     /*Responsive*/
 
@@ -857,6 +1083,180 @@ justify-content: center;
 align-items: center;
 margin: 20px;
 }
+
+/*bar primer section*/
+    
+.color-a{
+    font-size: 30px;
+    color: #faf2f2;
+}
+
+#somos-alambique1{
+    opacity: .7;
+    height: 800px;
+    margin-right: 250px;
+
+}
+
+#somos-alambique1 .container-al1{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.color-acento1{
+    color: #6b5a08;
+    font-size: 50px;
+}
+
+#neon{
+    font-size: 10px;
+    background-image: url(/imagen/fondo.jpg);
+    background-size: cover;
+    height: 400px;
+    opacity: 1;
+    width: 1200px;
+    
+
+
+}
+
+.primer1{
+    margin-left:100px;
+    color: #e3d2d2;
+    animation: blanco-neon 2s infinite alternate;
+
+    white-space: nowrap;
+    padding-top: 152px;
+}
+
+/*reserva bar*/
+#somos-alambique2 .container-al2{
+text-align: center;
+margin-right: 180px;
+font-size: 14px;
+}
+
+#somos-alambique2 {  
+opacity: .7;
+}
+
+.color-p2 {
+color: #faf2f2;
+}
+.color-acento{
+color: #6b5a08;
+}
+.btn-abrir-popup2{
+grid-row-start: 2;
+grid-column: 2/5;
+margin-top: 200px;
+padding-left: 30px;
+text-align: center;
+cursor: pointer;
+
+
+}
+#btn-abrir-popup2 {
+
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(93, 90, 81);
+    box-shadow: 0.125rem 0.125rem 0.625rem rgb(220, 212, 185);
+    color: aliceblue;
+    background-color: #6b5a08;
+
+}
+#btn-abrir-popup2:hover{
+background-color: #94a134;
+}
+
+/* formulario de reserva */
+
+.formulario-reserva{
+height: 800px;
+margin-left: 10px;
+margin-right: 250px;
+}
+
+.container6 {
+padding-top: 30px;
+margin-left: 20px;
+}
+
+.form7 {
+list-style: none;
+padding: 0;
+}
+
+.contacto1 {
+text-align: center;
+font-size: 3em;
+}
+
+.contacto1 span {
+color: #7d7d0a;
+}
+
+.contact-wrapper {
+box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper {
+padding: 1em;
+}
+
+
+.form3, .block{
+color: #e3d2d2;
+}
+
+
+.contact-form form,
+.contact-form form input,
+.contact-form form textarea {
+width: 100%;
+padding: .7em;
+border: none;
+background: none;
+color: #fff;
+border-bottom: 1px solid #f6efef;
+}
+
+.contact-form form, .btn-abrir-popup2 {
+background: #2a2424;
+border: 0;
+text-transform: uppercase;
+
+}
+
+/* CONTACT INFO */
+.contact-info {
+background: rgb(192, 83, 83);
+}
+
+.contact-info> h4, .contact-info, .form7, .contact-info .form3{
+text-align: center;
+margin: 0 0 1rem 0;
+}
+#btn-abrir-popup3{
+margin-left: 120px;
+margin-top: 200px;
+padding-left: 30px;
+text-align: center;
+cursor: pointer;
+
+}
+
+#btn-abrir-popup3:hover{
+background-color: #7d7d0a;
+}
+
+
+
+
 }
 
 
@@ -1019,6 +1419,193 @@ margin: 20px;
     align-items: center;
     margin: 20px;
 }
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.contact-wrapper > * {
+    padding: 2em;
+}
+.contact-info> h4,
+.contact-info ul,
+.contact-info, .form3 {
+    text-align: left;
+}
+
+/*bar primer section*/
+    
+.color-a{
+    font-size: 40px;
+    color: #faf2f2;
+}
+
+#somos-alambique1{
+    opacity: .7;
+    height: 800px;
+    margin-right: 50px;
+
+}
+
+#somos-alambique1 .container-al1{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.color-acento1{
+    color: #6b5a08;
+    font-size: 70px;
+}
+
+#neon{
+    font-size: 10px;
+    background-image: url(/imagen/fondo.jpg);
+    background-size: cover;
+    height: 400px;
+    opacity: 1;
+    width: 1200px;
+    
+
+
+}
+
+.primer1{
+    margin-left:60px;
+    color: #e3d2d2;
+    animation: blanco-neon 2s infinite alternate;
+    font-family: 'Jura', sans-serif;
+    white-space: nowrap;
+    padding-top: 152px;
+}
+
+/*reserva bar*/
+#somos-alambique2 .container-al2{
+text-align: center;
+margin-right: 180px;
+font-size: 14px;
+}
+
+#somos-alambique2 {  
+opacity: .7;
+}
+
+.color-p2 {
+color: #faf2f2;
+}
+.color-acento{
+color: #6b5a08;
+}
+.btn-abrir-popup2{
+grid-row-start: 2;
+grid-column: 2/5;
+margin-top: 200px;
+padding-left: 30px;
+text-align: center;
+cursor: pointer;
+
+
+}
+#btn-abrir-popup2 {
+
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(93, 90, 81);
+    box-shadow: 0.125rem 0.125rem 0.625rem rgb(220, 212, 185);
+    color: aliceblue;
+    background-color: #6b5a08;
+
+}
+#btn-abrir-popup2:hover{
+background-color: #94a134;
+}
+
+/* formulario de reserva */
+
+.formulario-reserva{
+height: 800px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.container6 {
+padding-top: 30px;
+margin-left: 20px;
+}
+
+.form7 {
+list-style: none;
+padding: 0;
+}
+
+.contacto1 {
+text-align: center;
+font-size: 3em;
+}
+
+.contacto1 span {
+color: #7d7d0a;
+}
+
+.contact-wrapper {
+box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper {
+padding: 1em;
+}
+
+
+.form3, .block{
+color: #e3d2d2;
+}
+
+
+.contact-form form,
+.contact-form form input,
+.contact-form form textarea {
+width: 100%;
+padding: .7em;
+border: none;
+background: none;
+color: #fff;
+border-bottom: 1px solid #f6efef;
+}
+
+.contact-form form, .btn-abrir-popup2 {
+background: #2a2424;
+border: 0;
+text-transform: uppercase;
+
+}
+
+/* CONTACT INFO */
+.contact-info {
+background: rgb(192, 83, 83);
+}
+
+.contact-info> h4, .contact-info, .form7, .contact-info .form3{
+text-align: center;
+margin: 0 0 1rem 0;
+}
+#btn-abrir-popup3{
+margin-left: 20px;
+margin-top: 200px;
+padding-left: 30px;
+text-align: center;
+cursor: pointer;
+
+}
+
+#btn-abrir-popup3:hover{
+background-color: #7d7d0a;
+}
+
+
+
+
     }
 
 @media (min-width:320px) and (max-width:540px) {
@@ -1132,7 +1719,7 @@ background-size: cover;
     font-size: 15px;
     }
 .h1-box{
-                display: none;
+    display: none;
     }
 /*online shop*/
 
@@ -1314,5 +1901,173 @@ background-size: cover;
     margin-top: 150px;
     margin-left: 350px;
 }
-            
+
+/*bar primer section*/
+    
+    .color-a{
+        font-size: 40px;
+        color: #faf2f2;
+    }
+
+    #somos-alambique1{
+        opacity: .7;
+        height: 800px;
+        margin-left: 85px;
+
+    }
+
+    #somos-alambique1 .container-al1{
+        text-align: center;
+        padding: 200px 12px;
+    }
+    
+    .color-acento1{
+        color: #6b5a08;
+        font-size: 70px;
+    }
+
+    #neon{
+        font-size: 12px;
+        background-image: url(/imagen/fondo.jpg);
+        background-size: cover;
+        height: 400px;
+        opacity: 1;
+        width: 1200px;
+        
+    
+    
+    }
+
+    .primer1{
+        margin-left:100px;
+        color: #e3d2d2;
+        animation: blanco-neon 2s infinite alternate;
+        font-family: 'Jura', sans-serif;
+        white-space: nowrap;
+        padding-top: 152px;
+    }
+
+    /*reserva bar*/
+#somos-alambique2 .container-al2{
+    text-align: center;
+    margin-left: 150px;
+}
+
+#somos-alambique2 {  
+    opacity: .7;
+}
+
+.color-p2 {
+    color: #faf2f2;
+}
+.color-acento{
+    color: #6b5a08;
+}
+.btn-abrir-popup2{
+    grid-row-start: 2;
+    grid-column: 2/5;
+    margin-top: 200px;
+    padding-left: 30px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+#btn-abrir-popup2 {
+    
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid rgb(93, 90, 81);
+        box-shadow: 0.125rem 0.125rem 0.625rem rgb(220, 212, 185);
+        color: aliceblue;
+        background-color: #6b5a08;
+
+}
+#btn-abrir-popup2:hover{
+    background-color: #94a134;
+}
+
+/* formulario de reserva */
+
+.formulario-reserva{
+    height: 800px;
+    margin-left: 150px;
+}
+
+.container6 {
+    padding: 1.5em;
+    padding-top: 30px;
+}
+
+.form7 {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.contacto1 span {
+    color: #7d7d0a;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper {
+    padding: 1em;
+}
+
+
+.form3, .block{
+    color: #e3d2d2;
+}
+
+
+.contact-form form,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    color: #fff;
+    border-bottom: 1px solid #f6efef;
+}
+
+.contact-form form, .btn-abrir-popup2 {
+    background: #2a2424;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: rgb(192, 83, 83);
+}
+
+.contact-info> h4, .contact-info, .form7, .contact-info .form3{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+#btn-abrir-popup3{
+    margin-left: 70px;
+    margin-top: 200px;
+    padding-left: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#btn-abrir-popup3:hover{
+    background-color: #7d7d0a;
+}
+
         }
